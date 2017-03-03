@@ -1,11 +1,12 @@
-nav{
-	 background-color: #F2C777;
+nav {
+    background-color: #F2C777;
 }
+
 ul#nav {
     list-style-type: none;
     padding: 0;
     margin: 0;
-   text-align: right;
+    text-align: right;
 }
 
 ul#nav li {
@@ -32,53 +33,55 @@ body {
     background-color: #ff5200;
     color: white !important;
 }
-.logo{
-	float: left;
-	font-size: 30px;
-	padding: 25px 25px;
-	height: 50px;
-	line-height: 20px
+
+.logo {
+    float: left;
+    font-size: 30px;
+    padding: 25px 25px;
+    height: 50px;
+    line-height: 20px
 }
-a.logo{
-	text-decoration: none;
-	color: white
+
+a.logo {
+    text-decoration: none;
+    color: white
 }
-#mobile-menu{
-	display: none;
+
+#mobile-menu {
+    display: none;
 }
 
 @media screen and (max-width: 723px) {
-	ul#nav{
-		display: none;
-	}
-	#mobile-menu {
-    display: block;
-    position: relative;
-    width: 40px;
-    height: 35px;
-    top: -80px;
-    float: right;
-    line-height: 0px;
-    border: 1px solid black;
-
-}
-#mobile-menu img{
-	position: absolute;
-    width: 31px;
-    left: 6px;
-}
-
-	a.logo{
-		background-color: #F2C777;
-		color: white;
-		width:100%;
-		padding: 48px 10px 25px 27px;
-	}
-	ul#nav li {
-		display: block;
-		border-bottom:1px solid grey;
-	}
-	ul#nav li:last-child{
-		border-bottom: none;
-	}
+    ul#nav {
+        display: none;
+    }
+    #mobile-menu {
+        display: block;
+        position: relative;
+        width: 40px;
+        height: 35px;
+        top: -80px;
+        float: right;
+        line-height: 0px;
+        border: 1px solid black;
+    }
+    #mobile-menu p {
+        position: absolute;
+        left: 8px;
+        top: -14px;
+        font-size: xx-large;
+    }
+    a.logo {
+        background-color: #F2C777;
+        color: white;
+        width: 91%;
+        padding: 48px 10px 25px 27px;
+    }
+    ul#nav li {
+        display: block;
+        border-bottom: 1px solid grey;
+    }
+    ul#nav li:last-child {
+        border-bottom: none;
+    }
 }
